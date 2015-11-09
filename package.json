@@ -1,0 +1,19 @@
+{
+  "name": "intern-bug-runner-hangs-when-executing-large-number-of-tests-on-firefox",
+  "version": "1.0.0",
+  "description": "Intern runner hangs when executing large number of tests on firefox",
+  "author": "Bartosz Kaczorek",
+  "private": true,
+  "scripts": {
+    "pretest": "node test/support/prepare.js",
+    "test": "node_modules/.bin/intern-runner config=test/config/intern.js"
+  },
+  "dependencies": {
+    "fs-extra": "^0.23.1",
+    "glob": "^5.0.14",
+    "intern": "^3.0.0",
+    "mkpath": "^0.1.0",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.2.0"
+  }
+}

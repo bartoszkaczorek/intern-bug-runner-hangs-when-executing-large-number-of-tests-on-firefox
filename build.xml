@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<project name="intern-bug-477">
+
+	<dirname property="antfile.dir" file="${ant.file}" />
+	<property file="${antfile.dir}/build.properties" />
+
+	<target name="clean">
+		<delete dir="${antfile.dir}/node_modules" />
+		<delete dir="${antfile.dir}/test/config/.generated" />
+		<delete dir="${antfile.dir}/test/unit" />
+	</target>
+
+	<target name="init">
+		<exec executable="cmd" dir="${antfile.dir}">
+			<arg value="/C" />
+			<arg value="npm" />
+			<arg value="install" />
+		</exec>
+	</target>
+
+</project>
