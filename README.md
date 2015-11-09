@@ -14,7 +14,7 @@ Installation & Running
 		
 		git clone https://github.com/bartoszkaczorek/intern-bug-runner-hangs-when-executing-large-number-of-tests-on-firefox.git
 	
-	2. Install npm modules:
+	2. Install dependencies:
 		
 		cd intern-bug-runner-hangs-when-executing-large-number-of-tests-on-firefox
 		npm install
