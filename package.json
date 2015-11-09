@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "pretest": "node test/support/prepare.js",
-    "test": "node_modules/.bin/intern-runner config=test/config/intern.js"
+    "test": "node_modules/.bin/intern-runner config=test/config/intern.js",
+    "start-selenium" : "java -jar 3rdParty/selenium-server-standalone/selenium-server-standalone-2.48.2.jar"
   },
   "dependencies": {
     "fs-extra": "^0.23.1",
