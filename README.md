@@ -17,7 +17,7 @@ Installation
 Running
 -------
 
-	1. Start selenium server on port 4444
+	1. Start selenium standalone server on port 4444
 	
 	2. Run tests:
 	
