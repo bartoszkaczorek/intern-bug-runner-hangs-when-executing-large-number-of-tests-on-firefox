@@ -19,7 +19,9 @@ Installation & Running
 		cd intern-bug-runner-hangs-when-executing-large-number-of-tests-on-firefox
 		npm install
 
-	3. Start selenium standalone server on port 4444
+	3. Start selenium standalone server on port 4444:
+	
+		npm run start-selenium
 	
 	4. Run tests:
 		
