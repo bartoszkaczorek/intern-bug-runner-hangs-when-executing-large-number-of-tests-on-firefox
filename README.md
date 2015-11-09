@@ -7,8 +7,8 @@ Please see:
 
 	https://github.com/theintern/intern/issues/477
 
-Installation
-------------
+Installation & Running
+----------------------
 
 	1. Clone repository:
 		
@@ -19,11 +19,9 @@ Installation
 		cd intern-bug-runner-hangs-when-executing-large-number-of-tests-on-firefox
 		npm install
 
-Running
--------
-
-	1. Start selenium standalone server on port 4444
+	3. Start selenium standalone server on port 4444
 	
-	2. Run tests:
+	4. Run tests:
 		
 		npm test
+
