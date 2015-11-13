@@ -1,0 +1,11 @@
+{
+	"generator" : {
+		"exampleTestFilePath" : "test/resources/exampleTests.js",
+		"outputDir" : "test/unit"
+	},
+	"globber" : {
+		"searchPattern" : "test/unit/**/*Tests.js",
+		"outputFilePath" : "test/config/.generated/all.js"
+	},
+	"testCount" : 2000
+}
