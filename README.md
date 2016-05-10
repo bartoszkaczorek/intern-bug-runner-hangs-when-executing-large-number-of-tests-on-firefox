@@ -11,9 +11,9 @@ Installation & Running
 ----------------------
 
 1. Clone repository:  
-`git clone https://github.com/bartoszkaczorek/intern-bug-runner-hangs-when-executing-large-number-of-tests-on-firefox.git`
+`git clone https://github.com/bugs-intern/bug-intern-runner-hangs-when-executing-large-number-of-tests-on-firefox.git`
 2. Install dependencies:  
-`cd intern-bug-runner-hangs-when-executing-large-number-of-tests-on-firefox`  
+`cd bug-intern-runner-hangs-when-executing-large-number-of-tests-on-firefox`  
 `npm install`
 3. Start selenium standalone server on port 4444:  
 `npm run start-selenium`
